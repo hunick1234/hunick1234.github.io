@@ -1,0 +1,32 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.feature-slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.feature-slider img {
+    flex: 0 0 auto;
+    width: 33.33%;
+    scroll-snap-align: start;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
